@@ -7,6 +7,7 @@ void main() {
     print("2- Çıkarma");
     print("3- Çarpma");
     print("4- Bölme");
+    print("0- Çıkış");
 
     int secilenIslem = int.parse(stdin.readLineSync()!);
 
